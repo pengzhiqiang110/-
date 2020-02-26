@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037E7AA924064A060071BEB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7AA824064A060071BEB8 /* AppDelegate.m */; };
+		037E7AAC24064A060071BEB8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7AAB24064A060071BEB8 /* SceneDelegate.m */; };
+		037E7AAF24064A060071BEB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7AAE24064A060071BEB8 /* ViewController.m */; };
+		037E7AB224064A060071BEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037E7AB024064A060071BEB8 /* Main.storyboard */; };
+		037E7AB424064A080071BEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 037E7AB324064A080071BEB8 /* Assets.xcassets */; };
+		037E7AB724064A080071BEB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037E7AB524064A080071BEB8 /* LaunchScreen.storyboard */; };
+		037E7ABA24064A080071BEB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7AB924064A080071BEB8 /* main.m */; };
+		037E7AC424064A080071BEB8 /* __xib___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7AC324064A080071BEB8 /* __xib___Tests.m */; };
+		037E7ACF24064A090071BEB8 /* __xib___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7ACE24064A090071BEB8 /* __xib___UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		037E7AC024064A080071BEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037E7A9C24064A060071BEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037E7AA324064A060071BEB8;
+			remoteInfo = "测试xib颜色值";
+		};
+		037E7ACB24064A090071BEB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 037E7A9C24064A060071BEB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037E7AA324064A060071BEB8;
+			remoteInfo = "测试xib颜色值";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037E7AA424064A060071BEB8 /* 测试xib颜色值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试xib颜色值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		037E7AA724064A060071BEB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		037E7AA824064A060071BEB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		037E7AAA24064A060071BEB8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		037E7AAB24064A060071BEB8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		037E7AAD24064A060071BEB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		037E7AAE24064A060071BEB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		037E7AB124064A060071BEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		037E7AB324064A080071BEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		037E7AB624064A080071BEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		037E7AB824064A080071BEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037E7AB924064A080071BEB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		037E7ABF24064A080071BEB8 /* 测试xib颜色值Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试xib颜色值Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		037E7AC324064A080071BEB8 /* __xib___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__xib___Tests.m"; sourceTree = "<group>"; };
+		037E7AC524064A080071BEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037E7ACA24064A080071BEB8 /* 测试xib颜色值UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试xib颜色值UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		037E7ACE24064A090071BEB8 /* __xib___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__xib___UITests.m"; sourceTree = "<group>"; };
+		037E7AD024064A090071BEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		037E7AA124064A060071BEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037E7ABC24064A080071BEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037E7AC724064A080071BEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037E7A9B24064A060071BEB8 = {
+			isa = PBXGroup;
+			children = (
+				037E7AA624064A060071BEB8 /* 测试xib颜色值 */,
+				037E7AC224064A080071BEB8 /* 测试xib颜色值Tests */,
+				037E7ACD24064A090071BEB8 /* 测试xib颜色值UITests */,
+				037E7AA524064A060071BEB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		037E7AA524064A060071BEB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				037E7AA424064A060071BEB8 /* 测试xib颜色值.app */,
+				037E7ABF24064A080071BEB8 /* 测试xib颜色值Tests.xctest */,
+				037E7ACA24064A080071BEB8 /* 测试xib颜色值UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		037E7AA624064A060071BEB8 /* 测试xib颜色值 */ = {
+			isa = PBXGroup;
+			children = (
+				037E7AA724064A060071BEB8 /* AppDelegate.h */,
+				037E7AA824064A060071BEB8 /* AppDelegate.m */,
+				037E7AAA24064A060071BEB8 /* SceneDelegate.h */,
+				037E7AAB24064A060071BEB8 /* SceneDelegate.m */,
+				037E7AAD24064A060071BEB8 /* ViewController.h */,
+				037E7AAE24064A060071BEB8 /* ViewController.m */,
+				037E7AB024064A060071BEB8 /* Main.storyboard */,
+				037E7AB324064A080071BEB8 /* Assets.xcassets */,
+				037E7AB524064A080071BEB8 /* LaunchScreen.storyboard */,
+				037E7AB824064A080071BEB8 /* Info.plist */,
+				037E7AB924064A080071BEB8 /* main.m */,
+			);
+			path = "测试xib颜色值";
+			sourceTree = "<group>";
+		};
+		037E7AC224064A080071BEB8 /* 测试xib颜色值Tests */ = {
+			isa = PBXGroup;
+			children = (
+				037E7AC324064A080071BEB8 /* __xib___Tests.m */,
+				037E7AC524064A080071BEB8 /* Info.plist */,
+			);
+			path = "测试xib颜色值Tests";
+			sourceTree = "<group>";
+		};
+		037E7ACD24064A090071BEB8 /* 测试xib颜色值UITests */ = {
+			isa = PBXGroup;
+			children = (
+				037E7ACE24064A090071BEB8 /* __xib___UITests.m */,
+				037E7AD024064A090071BEB8 /* Info.plist */,
+			);
+			path = "测试xib颜色值UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		037E7AA324064A060071BEB8 /* 测试xib颜色值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037E7AD324064A090071BEB8 /* Build configuration list for PBXNativeTarget "测试xib颜色值" */;
+			buildPhases = (
+				037E7AA024064A060071BEB8 /* Sources */,
+				037E7AA124064A060071BEB8 /* Frameworks */,
+				037E7AA224064A060071BEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "测试xib颜色值";
+			productName = "测试xib颜色值";
+			productReference = 037E7AA424064A060071BEB8 /* 测试xib颜色值.app */;
+			productType = "com.apple.product-type.application";
+		};
+		037E7ABE24064A080071BEB8 /* 测试xib颜色值Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037E7AD624064A090071BEB8 /* Build configuration list for PBXNativeTarget "测试xib颜色值Tests" */;
+			buildPhases = (
+				037E7ABB24064A080071BEB8 /* Sources */,
+				037E7ABC24064A080071BEB8 /* Frameworks */,
+				037E7ABD24064A080071BEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037E7AC124064A080071BEB8 /* PBXTargetDependency */,
+			);
+			name = "测试xib颜色值Tests";
+			productName = "测试xib颜色值Tests";
+			productReference = 037E7ABF24064A080071BEB8 /* 测试xib颜色值Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		037E7AC924064A080071BEB8 /* 测试xib颜色值UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 037E7AD924064A090071BEB8 /* Build configuration list for PBXNativeTarget "测试xib颜色值UITests" */;
+			buildPhases = (
+				037E7AC624064A080071BEB8 /* Sources */,
+				037E7AC724064A080071BEB8 /* Frameworks */,
+				037E7AC824064A080071BEB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				037E7ACC24064A090071BEB8 /* PBXTargetDependency */,
+			);
+			name = "测试xib颜色值UITests";
+			productName = "测试xib颜色值UITests";
+			productReference = 037E7ACA24064A080071BEB8 /* 测试xib颜色值UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		037E7A9C24064A060071BEB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = pd1;
+				TargetAttributes = {
+					037E7AA324064A060071BEB8 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					037E7ABE24064A080071BEB8 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 037E7AA324064A060071BEB8;
+					};
+					037E7AC924064A080071BEB8 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 037E7AA324064A060071BEB8;
+					};
+				};
+			};
+			buildConfigurationList = 037E7A9F24064A060071BEB8 /* Build configuration list for PBXProject "测试xib颜色值" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 037E7A9B24064A060071BEB8;
+			productRefGroup = 037E7AA524064A060071BEB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037E7AA324064A060071BEB8 /* 测试xib颜色值 */,
+				037E7ABE24064A080071BEB8 /* 测试xib颜色值Tests */,
+				037E7AC924064A080071BEB8 /* 测试xib颜色值UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		037E7AA224064A060071BEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037E7AB724064A080071BEB8 /* LaunchScreen.storyboard in Resources */,
+				037E7AB424064A080071BEB8 /* Assets.xcassets in Resources */,
+				037E7AB224064A060071BEB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037E7ABD24064A080071BEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037E7AC824064A080071BEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		037E7AA024064A060071BEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037E7AAF24064A060071BEB8 /* ViewController.m in Sources */,
+				037E7AA924064A060071BEB8 /* AppDelegate.m in Sources */,
+				037E7ABA24064A080071BEB8 /* main.m in Sources */,
+				037E7AAC24064A060071BEB8 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037E7ABB24064A080071BEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037E7AC424064A080071BEB8 /* __xib___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		037E7AC624064A080071BEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				037E7ACF24064A090071BEB8 /* __xib___UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		037E7AC124064A080071BEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037E7AA324064A060071BEB8 /* 测试xib颜色值 */;
+			targetProxy = 037E7AC024064A080071BEB8 /* PBXContainerItemProxy */;
+		};
+		037E7ACC24064A090071BEB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 037E7AA324064A060071BEB8 /* 测试xib颜色值 */;
+			targetProxy = 037E7ACB24064A090071BEB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		037E7AB024064A060071BEB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037E7AB124064A060071BEB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		037E7AB524064A080071BEB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				037E7AB624064A080071BEB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		037E7AD124064A090071BEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		037E7AD224064A090071BEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		037E7AD424064A090071BEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMJT7R49G9;
+				INFOPLIST_FILE = "测试xib颜色值/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.--xib---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		037E7AD524064A090071BEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMJT7R49G9;
+				INFOPLIST_FILE = "测试xib颜色值/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.--xib---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		037E7AD724064A090071BEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMJT7R49G9;
+				INFOPLIST_FILE = "测试xib颜色值Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.--xib---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/测试xib颜色值.app/测试xib颜色值";
+			};
+			name = Debug;
+		};
+		037E7AD824064A090071BEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMJT7R49G9;
+				INFOPLIST_FILE = "测试xib颜色值Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.--xib---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/测试xib颜色值.app/测试xib颜色值";
+			};
+			name = Release;
+		};
+		037E7ADA24064A090071BEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMJT7R49G9;
+				INFOPLIST_FILE = "测试xib颜色值UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.--xib---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "测试xib颜色值";
+			};
+			name = Debug;
+		};
+		037E7ADB24064A090071BEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KMJT7R49G9;
+				INFOPLIST_FILE = "测试xib颜色值UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-23.--xib---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "测试xib颜色值";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		037E7A9F24064A060071BEB8 /* Build configuration list for PBXProject "测试xib颜色值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037E7AD124064A090071BEB8 /* Debug */,
+				037E7AD224064A090071BEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037E7AD324064A090071BEB8 /* Build configuration list for PBXNativeTarget "测试xib颜色值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037E7AD424064A090071BEB8 /* Debug */,
+				037E7AD524064A090071BEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037E7AD624064A090071BEB8 /* Build configuration list for PBXNativeTarget "测试xib颜色值Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037E7AD724064A090071BEB8 /* Debug */,
+				037E7AD824064A090071BEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		037E7AD924064A090071BEB8 /* Build configuration list for PBXNativeTarget "测试xib颜色值UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				037E7ADA24064A090071BEB8 /* Debug */,
+				037E7ADB24064A090071BEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 037E7A9C24064A060071BEB8 /* Project object */;
+}
