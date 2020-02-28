@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "UIColor+ColorChange.h"
 @interface ViewController ()
 
 @end
@@ -16,7 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    self.view.backgroundColor = [UIColor colorWithHexString:@"#FFFFFF"];
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(100, 100, 100, 30)];
+    label.text = @"我爱你";
+    label.textColor = [UIColor colorWithHexString:@"#666666"];
+    [self.view addSubview:label];
 }
 
 

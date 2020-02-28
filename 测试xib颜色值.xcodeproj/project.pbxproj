@@ -16,6 +16,7 @@
 		037E7ABA24064A080071BEB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7AB924064A080071BEB8 /* main.m */; };
 		037E7AC424064A080071BEB8 /* __xib___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7AC324064A080071BEB8 /* __xib___Tests.m */; };
 		037E7ACF24064A090071BEB8 /* __xib___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7ACE24064A090071BEB8 /* __xib___UITests.m */; };
+		037E7ADE24064A3D0071BEB8 /* UIColor+ColorChange.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7ADC24064A3C0071BEB8 /* UIColor+ColorChange.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		037E7ACA24064A080071BEB8 /* 测试xib颜色值UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试xib颜色值UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		037E7ACE24064A090071BEB8 /* __xib___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__xib___UITests.m"; sourceTree = "<group>"; };
 		037E7AD024064A090071BEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037E7ADC24064A3C0071BEB8 /* UIColor+ColorChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ColorChange.m"; sourceTree = "<group>"; };
+		037E7ADD24064A3C0071BEB8 /* UIColor+ColorChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ColorChange.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		037E7AA624064A060071BEB8 /* 测试xib颜色值 */ = {
 			isa = PBXGroup;
 			children = (
+				037E7ADD24064A3C0071BEB8 /* UIColor+ColorChange.h */,
+				037E7ADC24064A3C0071BEB8 /* UIColor+ColorChange.m */,
 				037E7AA724064A060071BEB8 /* AppDelegate.h */,
 				037E7AA824064A060071BEB8 /* AppDelegate.m */,
 				037E7AAA24064A060071BEB8 /* SceneDelegate.h */,
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				037E7AAF24064A060071BEB8 /* ViewController.m in Sources */,
+				037E7ADE24064A3D0071BEB8 /* UIColor+ColorChange.m in Sources */,
 				037E7AA924064A060071BEB8 /* AppDelegate.m in Sources */,
 				037E7ABA24064A080071BEB8 /* main.m in Sources */,
 				037E7AAC24064A060071BEB8 /* SceneDelegate.m in Sources */,
