@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0336088C258CF96A00AE13D5 /* customView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336088B258CF96A00AE13D5 /* customView.m */; };
 		037E7AA924064A060071BEB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7AA824064A060071BEB8 /* AppDelegate.m */; };
 		037E7AAC24064A060071BEB8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7AAB24064A060071BEB8 /* SceneDelegate.m */; };
 		037E7AAF24064A060071BEB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 037E7AAE24064A060071BEB8 /* ViewController.m */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0336088A258CF96A00AE13D5 /* customView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customView.h; sourceTree = "<group>"; };
+		0336088B258CF96A00AE13D5 /* customView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customView.m; sourceTree = "<group>"; };
 		037E7AA424064A060071BEB8 /* 测试xib颜色值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试xib颜色值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		037E7AA724064A060071BEB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		037E7AA824064A060071BEB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +112,8 @@
 			children = (
 				037E7ADD24064A3C0071BEB8 /* UIColor+ColorChange.h */,
 				037E7ADC24064A3C0071BEB8 /* UIColor+ColorChange.m */,
+				0336088A258CF96A00AE13D5 /* customView.h */,
+				0336088B258CF96A00AE13D5 /* customView.m */,
 				037E7AA724064A060071BEB8 /* AppDelegate.h */,
 				037E7AA824064A060071BEB8 /* AppDelegate.m */,
 				037E7AAA24064A060071BEB8 /* SceneDelegate.h */,
@@ -275,6 +280,7 @@
 				037E7AAF24064A060071BEB8 /* ViewController.m in Sources */,
 				037E7ADE24064A3D0071BEB8 /* UIColor+ColorChange.m in Sources */,
 				037E7AA924064A060071BEB8 /* AppDelegate.m in Sources */,
+				0336088C258CF96A00AE13D5 /* customView.m in Sources */,
 				037E7ABA24064A080071BEB8 /* main.m in Sources */,
 				037E7AAC24064A060071BEB8 /* SceneDelegate.m in Sources */,
 			);
